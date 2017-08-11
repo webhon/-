@@ -1,0 +1,12 @@
+APMSETUP 6 for Win32 ( http://www.apmsetup.com/ )
+
+Apache [ http://httpd.apache.org ]
+	- Server\Apache
+PHP [ http://kr.php.net ]
+	- Server\PHP5
+Zend Optimizer [ http://www.zend.com ]
+	- Server\ZendOptimizer
+MySQL [ http://www.mysql.com ]
+	- Server\MySQL5
+phpMyAdmin [ http://www.phpmyadmin.net ]
+	- Server\phpMyAdmin

@@ -1,0 +1,8 @@
+<?
+	$dbconnect = mysql_connect("localhost", "wellbook", "password");
+	if (!$dbconnect) {
+		die("[¿¬°á¾ÈµÊ]".mysql_error());
+	}
+	echo "[¿¬°áµÊ]";
+	mysql_close($dbconnect);
+?>

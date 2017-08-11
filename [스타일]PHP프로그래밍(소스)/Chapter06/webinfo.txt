@@ -1,0 +1,4 @@
+julie*julie@phpschool.ac.kr*http://phpschool.ac.kr/~julie
+kildong*kildong@phpschool.ac.kr*http://phpschool.ac.kr/~kildong
+lee*lee@phpschool.ac.kr*http://phpschool.ac.kr/~lee
+sch*sch@phpschool.ac.kr*http://phpschool.ac.kr/~sch

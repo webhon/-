@@ -1,0 +1,35 @@
+<html>
+	<head><title>나의 정보</title></head>
+	<body>
+		<form action="pgm01-11.php" method="POST">
+			<p><h2> 나 의 정 보 </h2>
+			<p>
+			이름 : <input type="text" name="name"><br>
+			주소 : <input type="text" name="addr" size=40><br>
+			학교 : <input type="text" name="school" size=40><br>
+			취미: 
+			<input type="checkbox" name="hobby1" value="수영"> 수영
+			<input type="checkbox" name="hobby2" value="승마"> 승마
+			<input type="checkbox" name="hobby3" value="마라톤"> 마라톤
+			<br>
+			학년 : 
+			<input type="radio" name="year" value="1학년"> 1학년 
+			<input type="radio" name="year" value="2학년"> 2학년 
+			<input type="radio" name="year" value="3학년"> 3학년 
+			<input type="radio" name="year" value="4학년"> 4학년 
+			<br>
+			장래희망 : 
+			<select name="hope">
+				<option value="교사">교사
+				<option value="과학자">과학자
+				<option value="공학도">공학도
+				<option value="ceo">기업인
+			</select>
+			<br>
+			나의 소개:<br>
+			<textarea name="myself" rows=5 cols=50>
+			</textarea>
+			<p> <input type="submit" value="정보입력">
+		</form>
+	</body>
+</html>
