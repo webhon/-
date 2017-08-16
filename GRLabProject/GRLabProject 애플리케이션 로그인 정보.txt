@@ -1,0 +1,9 @@
+다음의 계정으로 로그인 가능합니다.
+
+아이디  패스워드
+ryu     a12345
+ken     a12345
+chunli  a12345
+zangief a12345
+guile   a12345
+gouki   a12345

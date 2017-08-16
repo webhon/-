@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="custom_button">
+		<attr name="defaultImgId" format="integer" />
+		<attr name="clickedImgId" format="integer" />
+		<attr name="defaultTextColor" format="color" />
+		<attr name="clickedTextColor" format="color" />
+	</declare-styleable>
+</resources>

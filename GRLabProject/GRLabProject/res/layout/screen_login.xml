@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="300dp" android:layout_height="wrap_content"
+android:background="#FFFFFF" android:layout_gravity="center">
+<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:paddingTop="50dp"
+	android:paddingBottom="10dp" android:paddingLeft="10dp"
+	android:paddingRight="10dp" android:background="#000000" android:layout_margin="1px">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:paddingBottom="10dp">
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/login_id"
+			android:layout_weight="3" android:gravity="center_vertical"
+			android:textSize="15sp"></TextView>
+
+		<EditText android:id="@+id/idEditText" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:gravity="center|left" android:hint="@string/login_id_input"
+			android:textSize="14sp" android:singleLine="true" android:lines="1"></EditText>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:paddingBottom="10dp">
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/login_pw"
+			android:layout_weight="3" android:gravity="center_vertical"
+			android:textSize="15sp"></TextView>
+
+		<EditText android:id="@+id/pwEditText" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:gravity="center|left" android:hint="@string/login_pw_input"
+			android:textSize="14sp" android:singleLine="true" android:lines="1"
+			android:password="true"></EditText>
+	</LinearLayout>
+
+	<CheckBox android:id="@+id/idSaveCheckBox"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/login_id_save" android:layout_gravity="right"
+		android:layout_marginBottom="10dp"></CheckBox>
+
+
+	<Button android:id="@+id/loginButton" android:textSize="14sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/login" android:gravity="center" />
+
+</LinearLayout>
+</LinearLayout>

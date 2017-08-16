@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="string_array_choice_picture">
+		<item>写真アルバムから選択</item> 
+		<item>カメラ</item>
+		<item>削除</item>
+		<item>取り消し</item>
+	</string-array>
+</resources>

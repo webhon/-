@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:padding="10dp">
+
+	<EditText android:id="@+id/c2dmEditText" android:layout_width="fill_parent"
+		android:layout_height="200dp" android:layout_marginTop="18dp"
+		android:maxLength="500" android:gravity="left|top"></EditText>
+	<Button android:id="@+id/c2dmButton"
+		android:layout_marginTop="10dp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/c2dm_send"
+		android:gravity="center" />
+</LinearLayout>
